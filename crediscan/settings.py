@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',  
+<<<<<<< HEAD
     "authentication",
+=======
+>>>>>>> fc540e5 (Initial commit - Django setup for CrediScan)
 ]
 
 
@@ -57,7 +60,11 @@ ROOT_URLCONF = 'crediscan.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [BASE_DIR / "templates"],  # Ensure BASE_DIR is correct
+=======
+        'DIRS': [],
+>>>>>>> fc540e5 (Initial commit - Django setup for CrediScan)
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,8 +77,11 @@ TEMPLATES = [
     },
 ]
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> fc540e5 (Initial commit - Django setup for CrediScan)
 WSGI_APPLICATION = 'crediscan.wsgi.application'
 
 
@@ -126,6 +136,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+<<<<<<< HEAD
 
 AUTH_USER_MODEL = 'authentication.CustomUser'
 
+=======
+>>>>>>> fc540e5 (Initial commit - Django setup for CrediScan)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.urls import path, include
 from .views import home, register, upload_document, list_documents, extract_text
 from authentication.views import login_view, logout_view  # Import authentication views if they are in authentication app
@@ -14,3 +15,11 @@ urlpatterns = [
     path('extract/<int:document_id>/', extract_text, name="extract_text"),  # Extract text from document
 ]
 
+=======
+from django.urls import path
+from .views import home
+
+urlpatterns = [
+    path('', home, name="home"),
+]
+>>>>>>> fc540e5 (Initial commit - Django setup for CrediScan)
