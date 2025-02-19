@@ -87,17 +87,6 @@ def home(request):
 def register(request):
     return render(request, 'register.html')
 
-from django.shortcuts import render
-
-def register_view(request):
-    return render(request, "authentication/register.html")  # Ensure correct path
-
-def login_view(request):
-    return render(request, "authentication/login.html")
-
-def logout_view(request):
-    return render(request, "authentication/logout.html")
-
 
 
 
