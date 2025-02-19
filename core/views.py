@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.core.files.storage import FileSystemStorage
@@ -90,9 +89,3 @@ def register(request):
 
 
 
-=======
-from django.http import JsonResponse
-
-def home(request):
-    return JsonResponse({"message": "Welcome to CrediScan!"})
->>>>>>> fc540e5 (Initial commit - Django setup for CrediScan)
